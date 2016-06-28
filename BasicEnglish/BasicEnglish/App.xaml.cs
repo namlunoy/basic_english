@@ -8,7 +8,7 @@ namespace BasicEnglish
 		{
 			InitializeComponent();
 
-			MainPage = new BasicEnglishPage();
+			MainPage = new NavigationPage(new StartPage());
 		}
 
 		protected override void OnStart()
